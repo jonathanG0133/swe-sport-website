@@ -1,0 +1,20 @@
+.item {
+  list-style: none;
+}
+
+#carousel {
+  margin-top: 56px;
+  margin-bottom: 2vw;
+  max-width: 1000px;
+}
+
+.carousel-indicators .item {
+  list-style: none;
+  background-color: #888; 
+  margin: 0 5px; 
+  cursor: pointer; 
+}
+
+.carousel-indicators .active {
+  background-color: #f8f9fa; 
+}

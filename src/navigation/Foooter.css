@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  /* Ensure the footer is at the end of the content */
+  .footer {
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+.footer a {
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+
+.footer a:hover {
+  color: var(--secondaryColor); 
+  text-decoration: underline;
+}
+

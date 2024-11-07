@@ -1,0 +1,13 @@
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+.centered-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.centered-container img {
+  display: block;
+  margin: 0 auto;
+}
